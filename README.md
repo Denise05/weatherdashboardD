@@ -1,1 +1,7 @@
-# weatherdashboardD
+Voor mijn weather dashboard heb ik 2 API's gebruikt. Die van OpenWeatherMap en Mapbox. De gegevens van OpenWeatherMap heb ik gebruikt voor de temperatuur en voor de weerbeschrijving. De API van Mapbox heb ik gebruikt voor de kaart, ook in combinatie met de API van OpenWeatherMap. 
+
+Ik heb gekozen voor een invoerveld waar je een plaatsnaam in kan vullen. Hiermee kun je snel de temperatuur en weersbeschrijving van deze locatie zien en kun je bepalen of het een geschikte landingsplek is. Op de kaart kun je natuurlijk zoeken naar bepaalde plekken maar ook kun je van bepaalde hoofdsteden in Europa het weer zien aan de hand van een icoon. Hierdoor kan je snel zien waar het welk weer is en bepalen in welke richting je moet zoeken.
+
+Voor dit dashboard heb ik gekozen voor een strakke uitstraling. Hierdoor is het gelijk duidelijk waar wat staat en wat je moet doen. Je wordt dan verder niet afgeleidt door afbeeldingen of illustraties waardoor er veilig en snel een landingsplek gevonden kan worden, wel zo handig ;). De kleur van de kaart heb ik ook  neutraal en rustig gehouden waardoor deze goed bij de rest van de website past. De rest van de website is dus grijs, een rustige kleur die de website toch een kleurtje geeft maar ook niet teveel afleidt. Het past dus goed bij de strakke, zakelijke uitstraling. Om dit door te voeren heb ik ook alle hoeken strak gehouden.
+
+Wanneer de telefoonversie wordt vergroot komt de kaart links te staan en de overige informatie links. Ik vond dit van alle mogelijkheden de beste oplossing omdat het hierdoor rustig en duidelijk blijft en je genoeg ruimte hebt om over de kaart heen te gaan. Verder komt de informatie dus links waardoor ook dit duidelijk te lezen is. 

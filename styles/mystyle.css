@@ -1,0 +1,184 @@
+.container {
+  min-height: 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 70px 200px 1fr 70px;
+  grid-template-areas:
+    "header"
+    "input"
+    "info"
+    "map"
+    "footer"
+        ;
+}
+
+/*opmaak body*/
+body {
+  background: #E5E5E5;
+  margin: 0;
+  padding: 0;
+}
+
+/*header in grid*/
+header {
+  grid-area: header;
+}
+
+/*article map grid*/
+article.map {
+   grid-area: map;
+}
+
+/*article info grid*/
+div.display {
+  grid-area: info;
+}
+
+/*opmaak logo*/
+figure.logo img {
+  height: 40px;
+  margin-left: 10%;
+}
+
+/*opmaak input*/
+div.input {
+  grid-area: input;
+  margin-top: 20px;
+}
+
+/*div map*/
+#map {
+  height: 300px;
+  width: 100%;
+  margin-top: 0;
+}
+
+article.info > div {
+  text-align: center;
+  color: #6F6E6E;
+  font-weight: bold;
+  font-size: 
+}
+
+article.info figure {
+  margin: 0;
+}
+
+input.inputValue {
+  padding: 5px;
+  color: #6F6E6E;
+  margin-left: 20%;
+}
+
+input.button {
+  padding: 6px;
+  background-color: #6F6E6E;
+  color: white;
+  border: none;
+}
+
+.display p {
+  text-align: center;
+  color: #6F6E6E;
+  margin: 0;
+}
+
+.display h1 {
+  text-align: center;
+  color: #6F6E6E;
+  margin: 0;
+  margin-top: 25px;
+}
+
+ p.temp {
+  font-size: 2.0em; 
+}
+
+p.desc {
+  font-size: 1.5em;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  color: #6F6E6E;
+  margin-top: 30px;
+
+}
+
+
+/* Breakpoint naar Ipad */
+@media only screen and (min-width: 768px){
+  .container{
+      min-height: 500px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 80px 1fr 100px;
+      grid-template-areas:
+       "header map"
+       "input map"
+       "info map"
+       "footer map"
+        ;   
+  }
+
+  #map {
+    height: 1000px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  input.inputValue {
+    width: 190px;
+    height: 30px;
+    margin-left: 25%;
+    font-size: 1em;
+  }
+
+  input.button {
+    height: 43px;
+    width: 70px;
+    padding: 8px;
+    font-size: 1em;
+  }
+
+  /*opmaak logo*/
+  figure.logo img {
+    margin-left: 25%;
+  }
+  
+}
+
+  
+/* Breakpoint naar laptop klein */
+@media only screen and (min-width: 1280px){
+
+  input.inputValue {
+    width: 210px;
+    margin-left: 30%;
+  }
+
+
+  /*opmaak logo*/
+  figure.logo img {
+    margin-left: 35%;
+  }    
+  
+}
+
+
+/* Breakpoint naar laptop groot */
+@media only screen and (min-width: 1366px){
+  input.inputValue {
+    width: 210px;
+    margin-left: 28%;
+  }
+
+
+  /*opmaak logo*/
+  figure.logo img {
+    margin-left: 32%;
+    height: 45px;
+  }
+  
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>zoeken</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+	    <script src="scripts/main.js" defer></script>
+
+	    <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+	    <link href="styles/mystyle.css" rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<header><figure class="logo"><img src="images/logo.png" /></figure></header>
+
+			<div class="input">
+				<input type="text" class="inputValue" id="inputValue" placeholder="enter a city" />
+				<input type="submit" value="submit" class="button" />
+			</div>
+				
+			<div class="display">
+				<h1 class="name"></h1>
+				<p class="temp"></p>
+				<p class="desc"></p>
+			</div>
+
+			<article class="map">
+		    	<div id="map"></div>
+		    </article>
+
+			<footer>&#9400;Denise Ouwehand</footer>
+
+		</div>
+
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
